@@ -591,22 +591,121 @@
       </div>
       <div class="discovery-items">
         <div class="container">
-          <ul>
-            <li><img src="https://picsum.photos/190/190" alt="product"><h3>幸運手環</h3><h4>$2,850</h4><h4>已售出5</h4></li>
-            <li><img src="https://picsum.photos/190/190" alt="product"><h3>幸運手環</h3><h4>$2,850</h4><h4>已售出5</h4></li>
-            <li><img src="https://picsum.photos/190/190" alt="product"><h3>幸運手環</h3><h4>$2,850</h4><h4>已售出5</h4></li>
-            <li><img src="https://picsum.photos/190/190" alt="product"><h3>幸運手環</h3><h4>$2,850</h4><h4>已售出5</h4></li>
-            <li><img src="https://picsum.photos/190/190" alt="product"><h3>幸運手環</h3><h4>$2,850</h4><h4>已售出5</h4></li>
-            <li><img src="https://picsum.photos/190/190" alt="product"><h3>幸運手環</h3><h4>$2,850</h4><h4>已售出5</h4></li>
-          </ul>
+          <div class="product-line">
+          <a href="#" class="product">
+            <img src="https://picsum.photos/200/180" alt="product">
+            <div class="title">KICKASS Nike DUNK LOW RETRO WHITE BLACK</div>
+            <div class="info">
+              <div class="price">$5,920</div>
+              <div class="result">已售出54</div>
+            </div>
+          </a>
+          <a href="#" class="product">
+            <img src="https://picsum.photos/200/180" alt="product">
+            <div class="title">KICKASS Nike DUNK LOW RETRO WHITE BLACK</div>
+            <div class="info">
+              <div class="price">$5,920</div>
+              <div class="result">已售出54</div>
+            </div>
+          </a>
+          <a href="#" class="product">
+            <img src="https://picsum.photos/200/180" alt="product">
+            <div class="title">KICKASS Nike DUNK LOW RETRO WHITE BLACK</div>
+            <div class="info">
+              <div class="price">$5,920</div>
+              <div class="result">已售出54</div>
+            </div>
+          </a>
+          <a href="#" class="product">
+            <img src="https://picsum.photos/200/180" alt="product">
+            <div class="title">KICKASS Nike DUNK LOW RETRO WHITE BLACK</div>
+            <div class="info">
+              <div class="price">$5,920</div>
+              <div class="result">已售出54</div>
+            </div>
+          </a>
+          <a href="#" class="product">
+            <img src="https://picsum.photos/200/180" alt="product">
+            <div class="title">KICKASS Nike DUNK LOW RETRO WHITE BLACK</div>
+            <div class="info">
+              <div class="price">$5,920</div>
+              <div class="result">已售出54</div>
+            </div>
+          </a>
+          <a href="#" class="product">
+            <img src="https://picsum.photos/200/180" alt="product">
+            <div class="title">KICKASS Nike DUNK LOW RETRO WHITE BLACK</div>
+            <div class="info">
+              <div class="price">$5,920</div>
+              <div class="result">已售出54</div>
+            </div>
+          </a>
+
+
+          </div>
+          <div class="product-line">
+          <a href="#" class="product">
+            <img src="https://picsum.photos/200/180" alt="product">
+            <div class="title">KICKASS Nike DUNK LOW RETRO WHITE BLACK</div>
+            <div class="info">
+              <div class="price">$5,920</div>
+              <div class="result">已售出54</div>
+            </div>
+          </a>
+          <a href="#" class="product">
+            <img src="https://picsum.photos/200/180" alt="product">
+            <div class="title">KICKASS Nike DUNK LOW RETRO WHITE BLACK</div>
+            <div class="info">
+              <div class="price">$5,920</div>
+              <div class="result">已售出54</div>
+            </div>
+          </a>
+          <a href="#" class="product">
+            <img src="https://picsum.photos/200/180" alt="product">
+            <div class="title">KICKASS Nike DUNK LOW RETRO WHITE BLACK</div>
+            <div class="info">
+              <div class="price">$5,920</div>
+              <div class="result">已售出54</div>
+            </div>
+          </a>
+          <a href="#" class="product">
+            <img src="https://picsum.photos/200/180" alt="product">
+            <div class="title">KICKASS Nike DUNK LOW RETRO WHITE BLACK</div>
+            <div class="info">
+              <div class="price">$5,920</div>
+              <div class="result">已售出54</div>
+            </div>
+          </a>
+          <a href="#" class="product">
+            <img src="https://picsum.photos/200/180" alt="product">
+            <div class="title">KICKASS Nike DUNK LOW RETRO WHITE BLACK</div>
+            <div class="info">
+              <div class="price">$5,920</div>
+              <div class="result">已售出54</div>
+            </div>
+          </a>
+          <a href="#" class="product">
+            <img src="https://picsum.photos/200/180" alt="product">
+            <div class="title">KICKASS Nike DUNK LOW RETRO WHITE BLACK</div>
+            <div class="info">
+              <div class="price">$5,920</div>
+              <div class="result">已售出54</div>
+            </div>
+          </a>
+
+
+          </div>
         </div>
       </div>
     </div>
     <div class="footer">
+      <div class="orange-box"></div>
       <div class="information">
+        
         <div class="container">
           <div class="info">
             <ul class="client">
+              <li class="title">客服中心</li>
               <li><a href="#">幫助中心</a></li>
               <li><a href="#">蝦皮商城</a></li>
               <li><a href="#">付款方式</a></li>
@@ -618,8 +717,8 @@
               <li><a href="#">聯絡客服</a></li>
               <li><a href="#">防詐騙宣導</a></li>
             </ul>
-            <ul class="about">
-              <li><a href="#">關於蝦皮</a></li>
+            <ul class="info-about">
+              <li class="title">關於蝦皮</li>
               <li><a href="#">加入我們</a></li>
               <li><a href="#">蝦皮條款</a></li>
               <li><a href="#">隱私權政策</a></li>
@@ -629,18 +728,19 @@
               <li><a href="#">聯絡媒體</a></li>            
             </ul>
             <ul class="pay">
+              <li class="title">付款</li>
               <li><a href="#">mastercard</a></li>
               <li><a href="#">jcb</a></li>
               <li><a href="#">visa</a></li>
-            </ul>
-            <ul class="dilevry">
+              <li class="title special">物流合作</li>
               <li><a href="#">7-11</a></li>
               <li><a href="#">familymart</a></li>
               <li><a href="#">hi-life</a></li>
               <li><a href="#">宅急便</a></li>
-              <li><a href="#">okmart</a></li>            
+              <li><a href="#">okmart</a></li> 
             </ul>
             <ul class="social-media">
+              <li class="title">關注我們</li>
               <li><a href="#">facebook</a></li>
               <li><a href="#">instagram</a></li>
               <li><a href="#">line</a></li>
@@ -648,6 +748,7 @@
               <li><a href="#">蝦皮輯部落格</a></li>
             </ul>
             <ul class="download">
+              <li class="title">下載蝦皮</li>
               <li><a href="#">qrcode</a></li>
               <li><a href="#">appstore</a></li>
               <li><a href="#">googleplay</a></li>
@@ -1469,5 +1570,122 @@ img {
     }
   }
 }
+
+.discovery-items {
+  .container {
+    margin-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .product-line {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .product {
+    width: 190px;
+    background-color: white;
+    img {
+      width: 100%;
+    }
+  }
+
+  .title {
+    color: black;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 10px 10px 5px 10px;
+    font-size: 12px;
+    text-align: left;
+  }
+  
+  .info {
+    display: flex;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    justify-content: center;
+  }
+
+  .price {
+    flex: 1 1 0;
+    text-align: left;
+    color: $orange;
+  }
+
+  .result {
+    font-size: 6px;
+    color: gray;
+  }
+}
+
+.footer {
+  .orange-box {
+    width: 100%;
+    height: 3px;
+    background-color: $orange;
+    
+  }
+
+  .information {
+  background-color: $background-color;
+  padding-top: 30px;
+
+  .info {
+    display: flex;
+  
+    ul {
+      flex-direction: column;
+      display: flex;
+      text-align: left;
+      flex: 1 1 0;
+      font-size: 10px;
+      line-height: 2;
+    }
+
+    a {
+      color: $gray-color;
+    }
+  }
+
+  .title {
+    font-weight: 800;
+    font-size: 14px;
+    color: $gray-color;
+    margin-bottom: 10px;
+    &.special {
+      margin-top: 5px;
+    }
+  }
+
+  .about {
+    padding-top: 30px;
+    display: flex;
+    padding-bottom: 30px;
+    h3 {
+        
+      font-size: 14px;
+      color: gray;
+      text-align: left;
+      flex: 1 1 0;
+    }
+
+    ul {
+      text-align: right;
+      flex: 3 1 0;
+      font-size: 12px;
+    }
+
+    li {
+      font-weight: bold;
+      margin: 0 5px;
+    }
+  }
+
+
+}
+
+}
+
 
 </style>
