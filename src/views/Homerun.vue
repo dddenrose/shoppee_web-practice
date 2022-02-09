@@ -390,33 +390,98 @@
       </div>
       <div class="shopping-mall">
         <div class="container">
-          <div class="nav">
-            <ul>
-              <li>蝦皮商城</li>
-              <li>15天鑑賞期</li>
-              <li>蝦皮安心退</li>
-              <li>假一賠二</li>
-            </ul>
-          </div>
-          <div class="advertising">
-            <img src="https://picsum.photos/390/463" alt="image">
-          </div>
-          <div class="brands">
-            <div class="line one">
+          <div class="title-main">
+            <div class="info">
+              <a>蝦皮商城</a>
               <ul>
-                <li><img src="https://picsum.photos/145/167" alt="product">全館蝦幣10倍送</li>
-                <li><img src="https://picsum.photos/145/167" alt="product">下單回饋10%蝦幣</li>
-                <li><img src="https://picsum.photos/145/167" alt="product">超鯊機限時$6,490</li>
-                <li><img src="https://picsum.photos/145/167" alt="product">加入會員領好禮</li>
+                <li><i class="fas fa-undo"></i>15天鑑賞期</li>
+                <li><i class="fas fa-truck"></i>蝦皮安心退</li>
+                <li><i class="fas fa-shield-alt"></i>假一賠二</li>
               </ul>
             </div>
-            <div class="line two">
-              <ul>
-                <li><img src="https://picsum.photos/145/167" alt="product">全館蝦幣10倍送</li>
-                <li><img src="https://picsum.photos/145/167" alt="product">下單回饋10%蝦幣</li>
-                <li><img src="https://picsum.photos/145/167" alt="product">超鯊機限時$6,490</li>
-                <li><img src="https://picsum.photos/145/167" alt="product">加入會員領好禮</li>
-              </ul>
+            <a class="right">查看全部 ></a>
+          </div>
+          <div class="product-bar">
+            <a href="#" class="full-image">
+              <img src="https://picsum.photos/400/475" alt="image">
+            </a>
+            <div class="products-all">
+              <div class="line">
+                <div class="product">
+                    <a href="#">
+                      <div class="product-detail">
+                        <img src="https://picsum.photos/150/160" alt="product">
+                        <div class="logo"><i class="fab fa-google"></i></div>
+                      </div>
+                    </a>
+                    <div class="title">整點瘋搶1折券</div>
+                </div>
+                <div class="product">
+                    <a href="#">
+                      <div class="product-detail">
+                        <img src="https://picsum.photos/150/160" alt="product">
+                        <div class="logo"><i class="fab fa-google"></i></div>
+                      </div>
+                    </a>
+                    <div class="title">整點瘋搶1折券</div>
+                </div>
+                <div class="product">
+                    <a href="#">
+                      <div class="product-detail">
+                        <img src="https://picsum.photos/150/160" alt="product">
+                        <div class="logo"><i class="fab fa-google"></i></div>
+                      </div>
+                    </a>
+                    <div class="title">整點瘋搶1折券</div>
+                </div>
+                <div class="product">
+                    <a href="#">
+                      <div class="product-detail">
+                        <img src="https://picsum.photos/150/160" alt="product">
+                        <div class="logo"><i class="fab fa-google"></i></div>
+                      </div>
+                    </a>
+                    <div class="title">整點瘋搶1折券</div>
+                </div>
+              </div>
+              <div class="line">
+                <div class="product">
+                    <a href="#">
+                      <div class="product-detail">
+                        <img src="https://picsum.photos/150/160" alt="product">
+                        <div class="logo"><i class="fab fa-google"></i></div>
+                      </div>
+                    </a>
+                    <div class="title">整點瘋搶1折券</div>
+                </div>
+                <div class="product">
+                    <a href="#">
+                      <div class="product-detail">
+                        <img src="https://picsum.photos/150/160" alt="product">
+                        <div class="logo"><i class="fab fa-google"></i></div>
+                      </div>
+                    </a>
+                    <div class="title">整點瘋搶1折券</div>
+                </div>
+                <div class="product">
+                    <a href="#">
+                      <div class="product-detail">
+                        <img src="https://picsum.photos/150/160" alt="product">
+                        <div class="logo"><i class="fab fa-google"></i></div>
+                      </div>
+                    </a>
+                    <div class="title">整點瘋搶1折券</div>
+                </div>
+                <div class="product">
+                    <a href="#">
+                      <div class="product-detail">
+                        <img src="https://picsum.photos/150/160" alt="product">
+                        <div class="logo"><i class="fab fa-google"></i></div>
+                      </div>
+                    </a>
+                    <div class="title">整點瘋搶1折券</div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -1114,6 +1179,85 @@ img {
     flex: 0 1 0;
     width: 390px;
     border-radius: 10px;
+  }
+
+}
+
+.shopping-mall {
+  background-color: white;
+  margin-top: 30px;
+  .title-main {
+    display: flex;
+    padding: 15px 0;
+    border:solid 1px $background-color;
+  }
+
+  .info {
+    display: flex;
+    flex: 1;
+    text-align: left;
+    margin-left:10px;
+    color: black;
+    font-weight: bold;
+
+    a {
+      color: $orange;
+    }
+
+    svg {
+      color: $orange;
+      font-size: 14px;
+      margin-right: 5px;
+    }
+
+  }
+
+  .right {
+      color: $orange;
+      font-weight: bold;
+      font-size: $regular-font-size;
+      margin-right: 10px;
+  }
+
+  .product-bar {
+    display: flex;
+  }
+
+  .line {
+    display: flex;
+    justify-content: space-around;
+    flex: 1 1 0;
+  }
+
+  .full-image {
+    flex: 0 1 0;
+  }
+
+  .products-all {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .product-detail {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+  }
+
+  .logo {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    position: relative;
+    top:-10px;
+    background-color: white;
+    font-size: 25px;
+    width: 120px;
+    height: 50px;
+    border: solid 1px rgb(146, 146, 146,0.2);
+    border-radius: 30px;
   }
 
 }
