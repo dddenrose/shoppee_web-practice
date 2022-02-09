@@ -488,81 +488,105 @@
       </div>
       <div class="keyword">
         <div class="container">         
-          <div class="title">
+          <div class="title-main">
             <h2>熱門關鍵字</h2>
-            <h2>更改</h2>
+            <h3>更改</h3>
           </div>
-          <div class="product">
-            <ul>
-              <li>
-                <h3>紅包袋</h3>
-                <span>10萬+件商品</span>
-                <img src="https://picsum.photos/100/100" alt="product">
-              </li>
-              <li>
-                <h3>Switch</h3>
-                <span>15萬+件商品</span>
-                <img src="https://picsum.photos/100/100" alt="product">
-              </li>
-              <li>
-                <h3>阿爾宙斯</h3>
-                <span>2000件商品</span>
-                <img src="https://picsum.photos/100/100" alt="product">
-              </li>
-              <li>
-                <h3>襪子</h3>
-                <span>75萬+件商品</span>
-                <img src="https://picsum.photos/100/100" alt="product">
-              </li>
-              <li>
-                <h3>拖鞋</h3>
-                <span>45萬+件商品</span>
-                <img src="https://picsum.photos/100/100" alt="product">
-              </li>
-            </ul>
+          <div class="product-bar">
+            <div class="product">
+              <div class="info">
+                <h3>大滑鼠墊</h3>
+                <h4>3,520件商品</h4>
+              </div>
+              <img src="https://picsum.photos/115/100" alt="prodcut">
+            </div>
+            <div class="product">
+              <div class="info">
+                <h3>大滑鼠墊</h3>
+                <h4>3,520件商品</h4>
+              </div>
+              <img src="https://picsum.photos/115/100" alt="prodcut">
+            </div>
+            <div class="product">
+              <div class="info">
+                <h3>大滑鼠墊</h3>
+                <h4>3,520件商品</h4>
+              </div>
+              <img src="https://picsum.photos/115/100" alt="prodcut">
+            </div>
+            <div class="product">
+              <div class="info">
+                <h3>大滑鼠墊</h3>
+                <h4>3,520件商品</h4>
+              </div>
+              <img src="https://picsum.photos/115/100" alt="prodcut">
+            </div>
+            <div class="product">
+              <div class="info">
+                <h3>大滑鼠墊</h3>
+                <h4>3,520件商品</h4>
+              </div>
+              <img src="https://picsum.photos/115/100" alt="prodcut">
+            </div>
           </div>
         </div>
       </div>
       <div class="hottest-product">
         <div class="container">
-          <div class="title">
-            <h3>熱門商品</h3>
+          <div class="title-main">
+            <h2>熱門商品</h2>
             <h3>查看全部</h3>
           </div>
-          <div class="product">
-            <ul>
-              <li>
-                <img src="https://picsum.photos/180/180" alt="product">
-                <h3>熱門滿額免運專區</h3>
-              </li>
-              <li>
-                <img src="https://picsum.photos/180/180" alt="product">
-                <h3>醫療用口罩</h3>
-              </li>
-              <li>
-                <img src="https://picsum.photos/180/180" alt="product">
-                <h3>iphone滿版保護貼</h3>
-              </li>
-              <li>
-                <img src="https://picsum.photos/180/180" alt="product">
-                <h3>紅包袋</h3>
-              </li>
-              <li>
-                <img src="https://picsum.photos/180/180" alt="product">
-                <h3>彩色口罩</h3>
-              </li>
-              <li>
-                <img src="https://picsum.photos/180/180" alt="product">
-                <h3>女生襪子</h3>
-              </li>
-            </ul>
+          <div class="product-bar">
+            <div class="product">
+              <img src="https://picsum.photos/115/100" alt="prodcut">
+              <span class="box">月銷量4,500</span>
+              <div class="info">熱門滿額免運專區</div>
+              <span class="top">top</span>
+            </div>
+            <div class="product">
+              <img src="https://picsum.photos/115/100" alt="prodcut">
+              <span class="box">月銷量4,500</span>
+              <div class="info">熱門滿額免運專區</div>
+              <span class="top">top</span>
+            </div>
+            <div class="product">
+              <img src="https://picsum.photos/115/100" alt="prodcut">
+              <span class="box">月銷量4,500</span>
+              <div class="info">熱門滿額免運專區</div>
+              <span class="top">top</span>
+            </div>
+            <div class="product">
+              <img src="https://picsum.photos/115/100" alt="prodcut">
+              <span class="box">月銷量4,500</span>
+              <div class="info">熱門滿額免運專區</div>
+              <span class="top">top</span>
+            </div>
+            <div class="product">
+              <img src="https://picsum.photos/115/100" alt="prodcut">
+              <span class="box">月銷量4,500</span>
+              <div class="info">熱門滿額免運專區</div>
+              <span class="top">top</span>
+            </div>
+            <div class="product">
+              <img src="https://picsum.photos/115/100" alt="prodcut">
+              <span class="box">月銷量4,500</span>
+              <div class="info">熱門滿額免運專區</div>
+              <span class="top">top</span>
+            </div>
           </div>          
         </div>
       </div>
       <div class="new-discovery">
         <div class="container">
-          <h3>每日大發現</h3>
-          <h3>2.18新春購物節</h3>
+          <div class="title-block">
+            <h3>每日新發現</h3>
+            <div class="orange-box"></div>
+          </div>
+          <div class="title-block">
+            <h3>2.18新春購物節</h3>
+            <div class="orange-box none"></div>
+          </div>
         </div>
       </div>
       <div class="discovery-items">
@@ -1221,12 +1245,19 @@ img {
 
   .product-bar {
     display: flex;
+    box-sizing: border-box;
+    padding: 10px 0;
   }
 
   .line {
     display: flex;
     justify-content: space-around;
     flex: 1 1 0;
+  }
+
+  .product {
+    font-weight: bold;
+    color:$orange;
   }
 
   .full-image {
@@ -1244,6 +1275,7 @@ img {
     align-items:center;
     justify-content:center;
     flex-direction: column;
+    
   }
 
   .logo {
@@ -1258,8 +1290,184 @@ img {
     height: 50px;
     border: solid 1px rgb(146, 146, 146,0.2);
     border-radius: 30px;
+    svg {
+      color: black;
+    }
   }
 
+}
+
+.keyword {
+  background-color: white;
+  margin-top: 30px;
+
+  .title-main {
+    display: flex;
+    padding: 15px 0;
+    border:solid 1px $background-color;
+    align-items: center;
+    h3,h2 {
+      display: block;
+      
+    }
+    h2 {
+      flex: 1 1 0;
+      text-align: left;
+      font-weight: bold;
+      text-align: left;
+      margin-left: 10px;
+      color: $gray-color;
+      font-size: 16px;
+    }
+
+    h3 {
+      margin-right: 10px;
+      font-size: 10px;
+      color: $orange;
+    }
+  }
+
+  .product-bar {
+    display: flex;
+  }
+
+  .product {
+    display: flex;
+    text-align: left;
+    flex: 1 1 0;
+    border: solid 1px $background-color;
+  }
+
+  .info {
+    margin-top: 10px;
+    width: 115px;
+    box-sizing: border-box;
+    padding: 0 10px;
+
+    h3 {
+      font-size: 14px;
+      font-weight: bold;
+      color: #333333;
+    }
+
+    h4 {
+      font-size: 10px;
+      color: #333333;
+    }
+  }
+
+}
+
+.hottest-product {
+  background-color: white;
+  margin-top: 30px;
+  padding-bottom: 10px;
+
+  .title-main {
+    display: flex;
+    padding: 15px 0;
+    border:solid 1px $background-color;
+    align-items: center;
+    h3,h2 {
+      display: block;
+      
+    }
+    h2 {
+      flex: 1 1 0;
+      text-align: left;
+      font-weight: bold;
+      text-align: left;
+      margin-left: 10px;
+      color: $gray-color;
+      font-size: 16px;
+    }
+
+    h3 {
+      margin-right: 10px;
+      font-size: 10px;
+      color: $orange;
+    }
+  }
+
+  .product-bar {
+    display: flex;
+  }
+
+  .product {
+    margin-top: 10px;
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+  }
+
+  .top {
+    position: absolute;
+    line-height: 2;
+    background-color: $orange;
+    color: white;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    top: 0;
+    right: 0;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .box {
+    color: white;
+    background-color: rgb(146, 146, 146,0.8);
+    width: 80%;
+    position: relative;
+    bottom: 20px;
+    width: 150px;
+    height: 20px;
+    font-weight: bold;
+    font-size: 10px;
+  }
+
+  .info {
+    font-weight: bold;
+    margin-top: -10px;
+  }
+  
+
+}
+
+.new-discovery {
+  .container {
+    margin-top: 30px;
+    display: flex;
+    background-color: white;
+  }
+
+  .title-block {
+    align-items: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    line-height: 3;
+    height: 55px;
+    text-align: center;
+    color: $orange;
+    font-weight: bold;
+  }
+
+  .orange-box {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 5px;
+    background-color: $orange;
+    &.none {
+      background-color: white;
+    }
+  }
 }
 
 </style>
