@@ -7,8 +7,8 @@
             <div class="nav-left">
               <ul>
                 <li><a href="#">賣家中心</a></li>
-                <li><a href="#">下載</a></li>
-                <li><a href="#">追蹤我們</a></li>
+                <li class="plus1"><a href="#">下載</a></li>
+                <li class="plus2"><a href="#">追蹤我們</a></li>
                 <li class="social-media">
                   <i class="fab fa-facebook"></i>
                   <i class="fab fa-instagram"></i>
@@ -18,9 +18,9 @@
             </div>
             <div class="nav-right">
               <ul>
-                <li><a href="#">通知總覽</a></li>
-                <li><a href="#">幫助中心</a></li>
-                <li><a href="#">繁體中文</a></li>
+                <li><a href="#"><i class="far fa-bell"></i> 通知總覽</a></li>
+                <li><a href="#"><i class="far fa-question-circle"></i> 幫助中心</a></li>
+                <li><a href="#"><i class="fas fa-globe"></i> 繁體中文</a></li>
                 <li><a href="#">註冊</a></li>
                 <li><a href="#">登入</a></li>
               </ul>
@@ -34,9 +34,9 @@
             <div class="search">
               <div class="search-bar-text">
                 <input type="text" placeholder="   看更多免運商品" />
-                <div class="button">
+                <a href="#" class="button">
                   <button><i class="fas fa-search"></i></button>
-                </div>
+                </a>
               </div>
               <ul class="command">
                 <li><a href="#">紅包袋</a></li>
@@ -727,32 +727,38 @@
               <li><a href="#">限時特價</a></li>
               <li><a href="#">聯絡媒體</a></li>            
             </ul>
-            <ul class="pay">
-              <li class="title">付款</li>
-              <li><a href="#">mastercard</a></li>
-              <li><a href="#">jcb</a></li>
-              <li><a href="#">visa</a></li>
-              <li class="title special">物流合作</li>
-              <li><a href="#">7-11</a></li>
-              <li><a href="#">familymart</a></li>
-              <li><a href="#">hi-life</a></li>
-              <li><a href="#">宅急便</a></li>
-              <li><a href="#">okmart</a></li> 
-            </ul>
+            <div class="pay">
+              <div class="title">付款</div>
+              <div class="logo-bar">
+                <img src="../img/Mastercard-logo.svg.png" alt="logo" style="width:40px">
+                <img src="../img/jcb-logo.png" alt="logo" style="width:40px;position:relative;bottom:7px">
+                <img src="../img/visa.png" alt="logo" style="width:50px; position:relative; top: 5px">
+              </div>
+              <div class="title special">物流合作</div>
+              <div class="logo-bar">
+                <img src="../img/7-eleven-logo.png" alt="logo" style="width:60px">
+                <img src="../img/FamilyMart.png" alt="logo" style="width:80px; position:relative; top:10px; margin-left: 10px">
+                <img src="../img/hi-life-logo.png" alt="logo" style="width:30px; margin-left:10px">
+              </div>
+              <div class="logo-bar" style="margin-top:10px">
+                <img src="../img/下載.jpg" alt="logo">
+                <img src="../img/okmart.png" alt="logo" style="margin-left:10px">
+              </div>
+            </div>
             <ul class="social-media">
               <li class="title">關注我們</li>
-              <li><a href="#">facebook</a></li>
-              <li><a href="#">instagram</a></li>
-              <li><a href="#">line</a></li>
-              <li><a href="#">linkedin</a></li>
-              <li><a href="#">蝦皮輯部落格</a></li>
+              <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+              <li><a href="#"><i class="fab fa-instagram-square"></i> Instagram</a></li>
+              <li><a href="#"><i class="fab fa-line"></i> Line</a></li>
+              <li><a href="#"><i class="fab fa-linkedin"></i> Linkedin</a></li>
+              <li><a href="#"><i class="fas fa-lightbulb"></i> 蝦皮輯部落格</a></li>
             </ul>
             <ul class="download">
               <li class="title">下載蝦皮</li>
-              <li><a href="#">qrcode</a></li>
-              <li><a href="#">appstore</a></li>
-              <li><a href="#">googleplay</a></li>
-              <li><a href="#">appgallery</a></li>
+              <li><a href="#"><img src="../img/qrcode.png" alt="logo" style="width:70px;border:solid 1px gray;padding:4px"></a></li>
+              <li><a href="#"><img src="../img/apple.png" alt="logo" style="width:70px; margin-top:10px"></a></li>
+              <li><a href="#"><img src="../img/google.png" alt="logo" style="width:70px"></a></li>
+              <li><a href="#"><img src="../img/appgallery.png" alt="logo" style="width:70px"></a></li>
             </ul>
           </div>
           <div class="about">
@@ -837,6 +843,12 @@ img {
 // content
 
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transform: translateZ(0);
+  z-index: 100;
   
   .nav {
     padding-top: 10px;
@@ -855,6 +867,18 @@ img {
 
   .nav-left {
     text-align: left;
+    .plus1::after {
+      content: '';
+      border-left: solid 1px rgb(255, 255, 255, .5);
+      position: relative;
+      right: 35px;
+    }
+    .plus2::after {
+      content: '';
+      border-left: solid 1px rgb(255, 255, 255, .5);
+      position: relative;
+      right: 65px;
+    }
   }
 
   .nav-right {
@@ -886,6 +910,10 @@ img {
   }
 }
 
+.content {
+  padding-top: 121.2px;
+}
+
 .search-bar {
   display: flex;
   padding-top: 20px;
@@ -895,8 +923,13 @@ img {
     flex:1;
   }
 
+  .search {
+    width: 840px;
+  }
+
   .shopping-car {
     display: flex;
+    flex: 1 0 0;
     align-items: center;
     justify-content: center;
     svg {
@@ -906,9 +939,11 @@ img {
 
   .logo {
     text-align: left;
+    padding-right: 30px;
   }
 
   input {
+    flex: 1;
     width:760px;
     height:30px;
     border: white;
@@ -934,6 +969,8 @@ img {
     background-color: white;
     padding: 3px;
     border-radius: 3px;
+    box-sizing: border-box;
+    width: 840px;
 
     button {
       font-size: 16px;
@@ -1633,6 +1670,11 @@ img {
 
   .info {
     display: flex;
+
+    img {
+      width:50px;
+      height: auto;
+    }
   
     ul {
       flex-direction: column;
@@ -1641,6 +1683,17 @@ img {
       flex: 1 1 0;
       font-size: 10px;
       line-height: 2;
+    }
+
+    .pay{
+      width: 20%;
+      text-align: left;
+    }
+
+    li {
+      &.high {
+        margin-top: 7px;
+      }
     }
 
     a {
@@ -1682,6 +1735,16 @@ img {
     }
   }
 
+  svg {
+    color: gray;
+    font-size: 20px;
+  }
+
+  .social-media {
+    svg {
+      font-size: 15px;
+    }
+  }
 
 }
 
